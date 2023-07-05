@@ -4,8 +4,26 @@ import styled from 'styled-components/macro';
 const Hero = () => {
   return (
     <Wrapper>
-      <HeroImage alt="Hero image - A curious looking cat with beautiful blue eyes looking at you." src="/images/hero-img.avif" />
-      <Swoop src="/swoop.svg" role="image" alt="A Black wavy background" />
+      <picture>
+        <source 
+          type="image/avif"
+          srcSet={`
+            /images/hero-img.avif 1x,
+            /images/hero-img@2x.avif 2x,
+            /images/hero-img@3x.avif 3x
+            `} 
+        />
+        <source 
+          type="image/jpeg"
+          srcSet={`
+            /images/hero-img.jpg 1x,
+            /images/hero-img@2x.jpg 2x,
+            /images/hero-img@3x.jpg 3x
+          `} 
+        />
+      <HeroImage alt="Exapmple image - A curious looking cat with beautiful blue eyes." src="/images/hero-img.jpg" />
+      </picture>
+      <Swoop src="/swoop.svg" role="image" alt="" />{/* when the image does not have any semantic meanings, empty alt is ok */}
     </Wrapper>
   );
 };

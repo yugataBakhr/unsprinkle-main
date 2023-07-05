@@ -1,6 +1,7 @@
 const data = [
   {
     id: 'a',
+    src: '/images/vincent-van-zalinge-bird.jpg',
     src_jpg: [
       '/images/vincent-van-zalinge-bird.jpg',
       '/images/vincent-van-zalinge-bird@2x.jpg',
@@ -21,6 +22,7 @@ const data = [
   },
   {
     id: 'b',
+    src: '/images/alexandru-rotariu-dog.jpg',
     src_jpg: [
       '/images/alexandru-rotariu-dog.jpg',
       '/images/alexandru-rotariu-dog@2x.jpg',
@@ -36,6 +38,7 @@ const data = [
   },
   {
     id: 'c',
+    src: '/images/scott-walsh-fox.jpg',
     src_jpg: [
       '/images/scott-walsh-fox.jpg',
       '/images/scott-walsh-fox@2x.jpg',
@@ -51,6 +54,7 @@ const data = [
   },
   {
     id: 'd',
+    src: '/images/andy-holmes-giraffe.jpg',
     src_jpg: [
       '/images/andy-holmes-giraffe.jpg',
       '/images/andy-holmes-giraffe@2x.jpg',
@@ -66,6 +70,7 @@ const data = [
   },
   {
     id: 'e',
+    src: '/images/karsten-winegeart-dog.jpg',
     src_jpg: [
       '/images/karsten-winegeart-dog.jpg',
       '/images/karsten-winegeart-dog@2x.jpg',
@@ -81,6 +86,7 @@ const data = [
   },
   {
     id: 'f',
+    src: '/images/marko-blazevic-cat.jpg',
     src_jpg: [
       '/images/marko-blazevic-cat.jpg',
       '/images/marko-blazevic-cat@2x.jpg',
@@ -96,6 +102,7 @@ const data = [
   },
   {
     id: 'g',
+    src: '/images/mark-stoop-lizard.jpg',
     src_jpg: [
       '/images/mark-stoop-lizard.jpg',
       '/images/mark-stoop-lizard@2x.jpg',
@@ -114,6 +121,7 @@ const data = [
   },
   {
     id: 'h',
+    src: '/images/geran-de-klerk-squirrel.jpg',
     src_jpg: [
       '/images/geran-de-klerk-squirrel.jpg',
       '/images/geran-de-klerk-squirrel@2x.jpg',
@@ -129,6 +137,7 @@ const data = [
   },
   {
     id: 'i',
+    src: '/images/wexor-tmg-turtle.jpg',
     src_jpg: [
       '/images/wexor-tmg-turtle.jpg',
       '/images/wexor-tmg-turtle@2x.jpg',
